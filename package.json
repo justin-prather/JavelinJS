@@ -1,5 +1,5 @@
 {
-  "name": "javelinjs",
+  "name": "javelin-js",
   "version": "1.0.0",
   "description": "Extraction of Javelin from phacility/phabricator for use on npm",
   "main": "index.js",
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/justin-prather/JavelinJS.git"
   },
   "keywords": [
-    "javelin"
+    "javelin",
+    "phabricator"
   ],
-  "author": "Justin Prather",
+  "author": "Justin Prather <justinprather94@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/justin-prather/JavelinJS/issues"
