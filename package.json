@@ -1,6 +1,6 @@
 {
   "name": "javelin-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extraction of Javelin from phacility/phabricator for use with NodeJS",
   "main": "index.js",
   "scripts": {
