@@ -1,7 +1,7 @@
 {
   "name": "javelin-js",
   "version": "1.0.0",
-  "description": "Extraction of Javelin from phacility/phabricator for use on npm",
+  "description": "Extraction of Javelin from phacility/phabricator for use with NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
