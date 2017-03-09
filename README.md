@@ -13,15 +13,15 @@ Sample Javelin Module Definition:
 var JX = require('javelin-js').JX;
 
 JX.install('ModuleName', {
+  initialize: function() {
+    // function called once when the module is first installed
+  },
+
   extends: 'Name of module to inherit from',
 
   construct: function(param1, param2, ...) {
     // function to initialize an object created with new, ie.
     // var myObj = new JX.MyModule();
-  },
-
-  initialize: function() {
-    // function called once when the module is first installed
   },
 
   statics: {
@@ -31,14 +31,15 @@ JX.install('ModuleName', {
 
   properties: {
     // these are generally public object members. On install, Javelin generates
-    // getters and setters for these properties. For example, if an object had a
-    // public id, it could be a property
+    // getters and setters for these properties. For example, for a module
+    // JX.Friends, you could have properties of name, age, and phone number.
+    // Javelin would then generate JX.Friends.getName(), JX.Friends.setName(), etc.
   },
 
   members: {
     // properties or functions that are associated with instances of a JX module
     // for example, if you had a module JX.Friend, you may have member properties
-    // of name, callFriend(), etc.
+    // of created on, callFriend(), etc.
   }
 
 })
